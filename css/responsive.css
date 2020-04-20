@@ -1,0 +1,91 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+/* Normal desktop (LG) :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .feature-content a::before {
+        right: 490px;
+    }
+    .feature-content a::after {
+        left: 490px;
+    }
+
+
+}
+
+/* Tablet desktop (MD) :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .logo {
+        margin-left: 0px;
+    }
+    .image img{
+    width: 100%;
+    margin-bottom: 20px;
+    }
+    .btn-1, .btn-3, .btn-4 {
+        padding: 20px 37px;
+    }
+    .feature-content a::before {
+        right: 370px;
+    }
+    .feature-content a::after {
+        left: 370px;
+    }
+    .footer-content{
+        margin-bottom: 20px;
+    }
+    .for_slick_slider .items{
+        margin: 0 80px;
+    }
+
+
+}
+ 
+/* small mobile (XS):320px. */
+@media (max-width: 767px) {
+
+    .logo {
+        margin-left: 0px;
+    }
+    .image img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .input-content input {
+        width: 100%;
+    }
+    .input-content textarea {
+        width: 100%;
+    }
+    .service-bg {
+        padding: 0px 0px;
+    }
+    .for_slick_slider .items{
+        margin: 0 175px;
+    }
+    .social-contact {
+        margin-top: 13px;
+    }
+    .feature-text{
+        margin-bottom: 30px ;
+    }
+    .footer-area{
+        text-align: center;
+    }
+
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+    .input-content input {
+        width: 100%;
+    }
+    .input-content textarea {
+        width: 100%;
+    }
+
+}
